@@ -1,0 +1,805 @@
+{
+  "iterations": [],
+  "target_statements": {
+    "785caec0": {
+      "id": "785caec0",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_28894_2  (x y z  : \u211d)\n  (h\u2080  : 0 < x \u2227 0 < y \u2227 0 < z)\n  (h\u2081  : 0 < 20 / 100)\n  (h\u2082  : 0 < 25 / 100)\n  (h\u2083  : 0 < 10 / 100)  :\n  x^2 * y^3 * z - (0.8 * x)^2 * (0.75 * y)^3 * (0.9 * z) = 0.75859375 * x^2 * y^3 * z := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "eeffff29": {
+      "id": "eeffff29",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem wavelength_scientific_notation  :\n  0.00000094 = 9.4 * 10^(-7) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "8329ba22": {
+      "id": "8329ba22",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_80569_9 (x  : \u211d)  : x \u2208 Set.Iio 0 \u2192 (2 :\u211d)^x > 3^x := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "0b4a83c4": {
+      "id": "0b4a83c4",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_70379_10  (x y  : \u211d)\n  (h\u2080  : 0 < x \u2227 0 < y)\n  (h\u2081  : x * y = 3 * x + y)  :\n  16 \u2264 x + 3 * y := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "500632a0": {
+      "id": "500632a0",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem beautiful_iff_odd_divisor {n  : \u2115} (hn  : n > 0)  :\n    IsBeautiful n \u2194 \u2203 k  : \u2115, k > 1 \u2227 k \u2223 n \u2227 Odd k := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "a2999a02": {
+      "id": "a2999a02",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem quadratic_inequality_implication_4 {m  : \u211d} (hm  : m > 0)\n    (h_suff  : \u2200 x  : \u211d, -x^2 + 8*x + 20 \u2265 0 \u2192 x^2 - 2*x + 1 - m^2 \u2264 0)\n    (h_not_nec  : \u2203 x  : \u211d, x^2 - 2*x + 1 - m^2 \u2264 0 \u2227 -x^2 + 8*x + 20 < 0)  :\n    m \u2265 9 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "9a1a8673": {
+      "id": "9a1a8673",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem cabinet_knobs_count \n    (knob_price  : \u211d) \n    (pull_price  : \u211d)\n    (pull_count  : \u2115)\n    (total_cost  : \u211d)\n    (h1  : knob_price = 2.50)\n    (h2  : pull_price = 4.00)\n    (h3  : pull_count = 8)\n    (h4  : total_cost = 77)\n    (knob_count  : \u2115)\n    (h5  : knob_count * knob_price + pull_count * pull_price = total_cost)  :\n    knob_count = 18 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "7e78aac9": {
+      "id": "7e78aac9",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem two_irrational_numbers_10  : \n  let nums  : List \u211d  := [-Real.sqrt 16, -Real.pi/3, 3.14, Real.rpow 9 (1/3), 3/7, 0]\n  \u2203 (i\u2081 i\u2082  : \u211d), i\u2081 \u2208 nums \u2227 i\u2082 \u2208 nums \u2227 i\u2081 \u2260 i\u2082 \u2227 Irrational i\u2081 \u2227 Irrational i\u2082 \u2227 \n    \u2200 x \u2208 nums, Irrational x \u2192 x = i\u2081 \u2228 x = i\u2082 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "f7721a29": {
+      "id": "f7721a29",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_55157_2  :\n  IsGreatest {n | n \u2223 1800 \u2227 \u2203 k  : \u2115, k^2 = n} 900 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "5ed01ef8": {
+      "id": "5ed01ef8",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem quadratic_bound_part1 (a  : \u211d)  : \n  (\u2200 x  : \u211d, x \u2208 Set.Icc (-2) 2 \u2192 x^2 + a*x + 3 \u2265 a) \u2194 a \u2208 Set.Icc (-7) 2 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "9741d8be": {
+      "id": "9741d8be",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem base5_addition_342_78  :\n  toBase5 342 = [2, 3, 3, 2] \u2227 \n  toBase5 78 = [3, 0, 3] \u2227\n  toBase5 (342 + 78) = [3, 1, 4, 0] := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "708453c3": {
+      "id": "708453c3",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem store_visits_problem\n    (total_stores  : \u2115)\n    (total_visits  : \u2115)\n    (total_visitors  : \u2115)\n    (two_store_visitors  : \u2115)\n    (h_stores  : total_stores = 8)\n    (h_visits  : total_visits = 23)\n    (h_visitors  : total_visitors = 12)\n    (h_two_visitors  : two_store_visitors = 8)  :\n    \u2203 (max_stores  : \u2115), max_stores = 4 \u2227 \n    \u2203 (visit_distribution  : \u2115 \u2192 \u2115), -- maps visitor number to number of stores visited\n    (max_stores \u2208 Set.range visit_distribution) \u2227 -- maximum stores occurs in the distribution\n    (\u2211 i in Finset.range total_visitors, visit_distribution i = total_visits) \u2227 -- total visits match\n    (\u2200 i < total_visitors, visit_distribution i \u2265 1) \u2227 -- everyone visited at least one store\n    (Finset.filter (fun i => visit_distribution i = 2) (Finset.range total_visitors)).card = two_store_visitors -- 8 people visited exactly 2 stores := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "ba8e4128": {
+      "id": "ba8e4128",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_25095  :\n  (1  : \u211d) * Real.sqrt 48 / Real.sqrt 3 - 2 * Real.sqrt (1 / 5) * Real.sqrt 30 + Real.sqrt 24 = 4 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "42f1f366": {
+      "id": "42f1f366",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem round_4_65_to_tenth  :\n  \u2200 x  : \u211a, (\u2203 n  : \u2124, x = n/10) \u2192 x \u2260 (47/10) \u2192 |x - (47/10)| > |(465/100) - (47/10)| := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "a0a5acd8": {
+      "id": "a0a5acd8",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_38036_2  (S  : Finset \u2124)\n  (h\u2080  : \u2200 (x  : \u2124), x \u2208 S \u2194 2 * x + 1 > -3 \u2227 -x + 3 \u2265 0)  :\n  S.card = 5 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "2ad46cde": {
+      "id": "2ad46cde",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_66434_5 (t  : \u211d) (ht  : t^2 \u2208 Set.Icc 0 (1/2))  : (t^2 + 4) / (Real.sqrt (t^2 + 1) * Real.sqrt (16 + t^2)) \u2265 3 * Real.sqrt 11 / 11 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "572f0352": {
+      "id": "572f0352",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem function_value_at_x\u2080\n  (x\u2080  : \u211d)\n  (h_range  : x\u2080 \u2208 Set.Ioo (Real.pi/2) Real.pi)\n  (h_sin  : Real.sin x\u2080 = 3/5)  :\n  (1/2) * Real.cos (2*x\u2080 - Real.pi/3) = (7 - 24*Real.sqrt 3)/100 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "2ae9f41c": {
+      "id": "2ae9f41c",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem condition_is_necessary_not_sufficient_3  :\n  -- First part : the condition is necessary\n  (\u2200 a  : \u211d, a < -1 \u2192 1/a > -1) \u2227\n  -- Second part : the condition is not sufficient\n  \u00ac(\u2200 a  : \u211d, 1/a > -1 \u2192 a < -1) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "ee309254": {
+      "id": "ee309254",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_63707_3 (y  : \u211d \u2192 \u211d) (x  : \u211d) (h  : y = fun x => (Real.exp (x / 2) * Real.sin (2 * x)))  : y'''' = (161 / 16) * (Real.exp (x / 2) * Real.sin (2 * x)) - 15 * (Real.exp (x / 2) * Real.cos (2 * x)) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "1ccb9798": {
+      "id": "1ccb9798",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem rectangle_area_with_triple_length_3 (x  : \u211d) (h  : x > 0)  : \n  \u2203 w l  : \u211d, w > 0 \u2227 l = 3 * w \u2227 w * w + l * l = x * x \u2227 w * l = (3/10) * x * x := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "c3af2929": {
+      "id": "c3af2929",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem sqrt_sum_reciprocal_sqrt \n    (x  : \u211d) \n    (hx_pos  : x > 0)\n    (hx_sum  : x + 1/x = 50)  : \n    Real.sqrt x + 1/Real.sqrt x = 2 * Real.sqrt 13 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "fc119ab7": {
+      "id": "fc119ab7",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem a_gt_1_sufficient_not_necessary  :\n  -- First part : Sufficient (if a > 1 then a\u00b2 > 1)\n  (\u2200 a  : \u211d, a > 1 \u2192 a^2 > 1) \u2227\n  -- Second part : Not necessary (there exists an a where a\u00b2 > 1 but a \u2264 1)\n  (\u2203 a  : \u211d, a^2 > 1 \u2227 a \u2264 1) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "4d4c1387": {
+      "id": "4d4c1387",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_7799_3  (z1 z2  : \u2102)\n  (h\u2080  : \u2016z1 + z2\u2016 = 2 * Real.sqrt 2)\n  (h\u2081  : \u2016z1\u2016 = Real.sqrt 3)\n  (h\u2082  : \u2016z2\u2016 = Real.sqrt 2)  :\n  \u2016z1 - z2\u2016 = Real.sqrt 2 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "a93ae06e": {
+      "id": "a93ae06e",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat Complex\n\n",
+      "theorem": "theorem complex_equation_solution_107  : \n  let w  : \u2102  := -2 * I / 5\n  2 + 3 * I * w = 4 - 2 * I * w := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "de61df09": {
+      "id": "de61df09",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem no_perfect_square_solution_7 (n  : \u2115) (hn  : n > 0)  :\n  \u00ac\u2203 k  : \u2115, 1 - 5^n + 5^(2*n + 1) = k^2 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "ffb4edb1": {
+      "id": "ffb4edb1",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem gcd_sequence_growth {a  : \u2115 \u2192 \u2115} (hpos  : \u2200 n, a n > 0)\n    (hgcd  : \u2200 n, Nat.gcd (a (n + 1)) (a (n + 2)) > a n)  :\n    \u2200 n, a n \u2265 2^n := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "bf0b793c": {
+      "id": "bf0b793c",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem cookie_sequence (a  : \u2115 \u2192 \u2115)\n    (h1  : a 1 = 5)\n    (h2  : a 2 = 7)\n    (h3  : a 3 = 10)\n    (h5  : a 5 = 19)\n    (hdiff  : \u2200 n  : \u2115, n \u2265 1 \u2192 n < 5 \u2192\n      (a (n + 1) - a n) = (a n - a (n - 1)) + 1)  :\n    a 4 = 14 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "2cd5d7ba": {
+      "id": "2cd5d7ba",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem cos_square_plus_double_angle (\u03b1  : \u211d) (h  : tan \u03b1 = 3/4)  : \n  cos \u03b1 ^ 2 + 2 * sin (2 * \u03b1) = 64/25 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "60a2be94": {
+      "id": "60a2be94",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_46354_4  :\n  (x^2 + y^2 - 4*x - 4*y + 4 = 0) \u2194 (\u03c1^2 - 4*\u03c1*(cos \u03b8 + sin \u03b8) + 4 = 0) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "1dd3e3f3": {
+      "id": "1dd3e3f3",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem polynomial_factorization_n_sum  : \n  let f (n x  : \u2124)  := 3*x^3 - n*x - n - 2\n  let is_factorizable (n  : \u2124)  := \u2203 (a b c  : \u2124), \u2200 x, \n    f n x = (3*x^2 + a*x + b)*(x - c)\n  \u2200 n  : \u2124, is_factorizable n \u2192 n \u2208 ({-2, 26, 38, 130}  : Set \u2124) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "e5d828c7": {
+      "id": "e5d828c7",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem fifth_fourth_parts_equation_2  : \n  let x  : \u211a  := 160\n  let fifth_part  := x / 5\n  let fourth_part  := x / 4\n  (fifth_part + 4 = fourth_part - y) \u2192 y = 4 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "158cf319": {
+      "id": "158cf319",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_2822 (t  : \u211d) (a b  : \u211d \u00d7 \u211d) (ha  : a = (-3, 4)) (hb  : b = (t, 3))  : (a \u2022 b = -3 * 5) \u2192 t = 9 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "d928cea0": {
+      "id": "d928cea0",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_74113_2  (n  : \u2124)\n  (x  : \u211d)\n  (h\u2080  : x = Real.sin (n * Real.pi / 3))\n  (h\u2081  : 0 \u2264 n \u2227 n \u2264 6)  :\n  {x | \u2203 n, 0 \u2264 n \u2227 n \u2264 6 \u2227 x = Real.sin (n * Real.pi / 3)} = {0, -Real.sqrt 3 / 2, Real.sqrt 3 / 2} := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "671242e9": {
+      "id": "671242e9",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_4908_8  (x  : \u211d)\n  (f  : \u211d \u2192 \u211d)\n  (h\u2080  : \u2200 x, f x = 1 / 2 * x - 1 / 4 * Real.sin x - Real.sqrt 3 / 4 * Real.cos x)\n  (h\u2081  : \u2200 x, f x = 1)  :\n  Real.tan x = -Real.sqrt 3 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "960a844a": {
+      "id": "960a844a",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem ln_twenty_between_one_and_three  : \n  1 < Real.log 20 \u2227 Real.log 20 < 3 \u2227 1 + 3 = 4 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "b34f6887": {
+      "id": "b34f6887",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_19870  (p  : \u2115)\n  (h\u2080  : Nat.Prime p)\n  (h\u2081  : 0 < p)  :\n  (Nat.factors p).length \u2264 3 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "1e388ee1": {
+      "id": "1e388ee1",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem trigonometric_equations_check  :\n  -- A is correct\n  (\u2200 \u03b1  : \u211d, 2 * Real.sin \u03b1 ^ 2 = 1 - Real.cos (2 * \u03b1)) \u2227\n  -- B is incorrect (provide counterexample)\n  (\u2203 \u03b1 \u03b2  : \u211d, Real.cos (\u03b1 + \u03b2) \u2260 Real.cos \u03b1 * Real.cos \u03b2 + Real.sin \u03b1 * Real.sin \u03b2) \u2227\n  -- C is correct\n  (\u2200 \u03b1 \u03b2  : \u211d, Real.cos (\u03b1 - \u03b2) = Real.cos (\u03b2 - \u03b1)) \u2227\n  -- D is correct\n  (\u2200 \u03b1 \u03b2  : \u211d, Real.sin (\u03b1 - \u03b2) = Real.sin \u03b1 * Real.cos \u03b2 - Real.cos \u03b1 * Real.sin \u03b2) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "6ec191bd": {
+      "id": "6ec191bd",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_39984_7  (a b c d  : \u211d)\n  (h\u2080  : 0 < a \u2227 0 < b \u2227 0 < c \u2227 0 < d)\n  (h\u2081  : a + b + c + d = 120)\n  (h\u2082  : a * b * c * d = 10)\n  (h\u2083  : a + c = b + d)\n  (h\u2084  : a + b = c + d)\n  (h\u2085  : a + c = d + b)\n  (h\u2086  : a + d = b + c)\n   : a + b + c + d = 52 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "8861034d": {
+      "id": "8861034d",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem ellipse_circumscribed_square\n  (a b  : \u211d) \n  (ha  : a > 0)\n  (hb  : b > 0)\n  (hab  : a > b)  :\n  \u2203 (x\u2081 y\u2081  : \u211d),\n  -- The point (x\u2081, y\u2081) lies on the ellipse\n  x\u2081^2/a^2 + y\u2081^2/b^2 = 1 \u2227\n  -- The tangent at this point is at 45\u00b0 angle\n  (b^2 * x\u2081)/(a^2 * y\u2081) = 1 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "6303dbc5": {
+      "id": "6303dbc5",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_19280_3 (a  : \u211d) (f  : \u211d \u2192 \u211d) (hf : f x = Real.sqrt (x + 1/2 + Real.sqrt (x + 1/4)) + x) : \u2203! x, f x = a \u2194 a \u2208 Set.Ici (1/4) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "c1afb98d": {
+      "id": "c1afb98d",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_56479_4  (\u03b1  : \u211d)\n  (h\u2080  : 0 < \u03b1 \u2227 \u03b1 < Real.pi)\n  (h\u2081  : Real.cos (\u03b1 + Real.pi / 3) - Real.sin (\u03b1 - Real.pi / 3) = 0)  :\n  Real.sin \u03b1 ^ 2 + 2 * Real.sin \u03b1 * Real.cos \u03b1 = 3 / 2 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "cb74f08c": {
+      "id": "cb74f08c",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem tan_triple_angle_special_2 (\u03b8  : \u211d) (h  : tan \u03b8 = -3)  :\n    tan (3 * \u03b8) = -9/13 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "3e985cd4": {
+      "id": "3e985cd4",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_58002_6  (d  : \u211d)\n  (h\u2080  : 3 * (5 + d * y) = 15 * y + 15)\n  (h\u2081  : Set.Infinite {y  : \u211d | 3 * (5 + d * y) = 15 * y + 15})  :\n  d = 5 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "b0a8d822": {
+      "id": "b0a8d822",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem chemical_solution_exists  : \n  \u2203 x  : \u211d, 0 < x \u2227 x < 1 \u2227 \n  (1 - x)^5 * 0.5 + (1 - x)^4 * x * 0.6 + (1 - x)^3 * x * 0.65 + \n  (1 - x)^2 * x * 0.7 + (1 - x) * x * 0.75 + x * 0.8 = 0.63 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "974236a5": {
+      "id": "974236a5",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem geometric_sequence_sum_four_10\n    (a  : \u2115 \u2192 \u211d) -- The sequence\n    (h_geom  : \u2200 n  : \u2115, n > 0 \u2192 a (n + 1) / a n = a 2 / a 1) -- Geometric sequence property\n    (h_diff1  : a 3 - a 1 = 15) -- First condition\n    (h_diff2  : a 2 - a 1 = 5) -- Second condition\n     : a 1 + a 2 + a 3 + a 4 = 75 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "8b194ac1": {
+      "id": "8b194ac1",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_14774  (a b c  : \u211d)\n  (h\u2080  : 0 < a \u2227 0 < b \u2227 0 < c)\n  (h\u2081  : a * b * c = 1)  :\n  a^2 / (b + c) + b^2 / (c + a) + c^2 / (a + b) \u2265 3 / 2 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "a5fdc5e9": {
+      "id": "a5fdc5e9",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_38510  (h\u2080  : (1 + Complex.I) ^ 2 = 2 * Complex.I)\n  (h\u2081  : (1 - Complex.I) ^ 2 = -2 * Complex.I)  :\n  (1 + Complex.I) ^ 18 - (1 - Complex.I) ^ 18 = 1024 * Complex.I := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "50a17af1": {
+      "id": "50a17af1",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_22234_2 (a  : \u211d) (ha  : 0 < a) (M  : Set (\u211d \u00d7 \u211d)) (hM  : M = {(x, y) | x ^ 2 + y ^ 2 = a ^ 2}) (N  : Set (\u211d \u00d7 \u211d)) (hN  : N = {(x, y) | |x + y| + |x - y| \u2264 2})  : M \u2286 N \u2194 0 < a \u2227 a \u2264 1 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "1221dcf4": {
+      "id": "1221dcf4",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_64998_4  (a b c  : \u211d)\n  (h\u2080  : 0 < a \u2227 0 < b \u2227 0 < c)\n  (h\u2081  : a + b > c)\n  (h\u2082  : a + c > b)\n  (h\u2083  : b + c > a)\n   : \u2203 (I P D  : \u211d),\n    (I + P + D > 0 \u2227\n    (a + b + c + I + P + D) * (a + b + c - I - P - D) = (a + b + c + I + P + D) * (a + b + c - I - P - D) \u2227\n    (a + b + c + P) * (a + b + c - P) = (a + b + c + D) * (a + b + c - D) \u2227\n    (a + b + c + I) * (a + b + c - I) = (a + b + c + P) * (a + b + c - P) \u2227\n    (a + b + c + D) * (a + b + c - D) = (a + b + c + I) * (a + b + c - I) \u2227\n    (a + b + c + P) * (a + b + c - P) = (a + b + c + D) * (a + b + c - D)) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "fdc18c6b": {
+      "id": "fdc18c6b",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem min_value_fraction_46 (x y  : \u211d) \n    (h1  : x^2 + y^2 = 3)\n    (h2  : |x| \u2260 |y|)\n    (h3  : (2*x + y) \u2260 0)\n    (h4  : (x - 2*y) \u2260 0)  :\n    1/((2*x + y)^2) + 4/((x - 2*y)^2) \u2265 3/5 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "af825de8": {
+      "id": "af825de8",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem log_product_equals_one_8 (x y  : \u211d) (hx  : x > 0) (hy  : y > 0)  :\n    (log x^2 / log y^4) * (log y / log x^3) * (log x^4 / log y^3) *\n    (log y^3 / log x^2) * (log x^3 / log y) = log x / log y := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "0417da8b": {
+      "id": "0417da8b",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem sequence_sum_product_17 {a b  : \u2115 \u2192 \u211a} (n  : \u2115) \n    (h_geom  : \u2200 k, k > 0 \u2192 a k = 1/(2^(k-1)))  -- geometric sequence formula for a\n    (h_arith  : \u2200 k, k > 0 \u2192 b k = k + 1)        -- arithmetic sequence formula for b\n    (h_n  : n > 0)  : \n    (\u2211 k in Finset.range n, a (k+1) * b (k+1)) = 6 - (n + 3)/(2^(n-1)) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "1c84a5ac": {
+      "id": "1c84a5ac",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem limit_special_function_70  : \n  \u2200 \u03b5 > 0, \u2203 \u03b4 > 0, \u2200 x  : \u211d, \n    x \u2260 0 \u2192 |x| < \u03b4 \u2192 \n    |((exp (4 * x) - exp (-2 * x))/(2 * arctan x - sin x)) - 6| < \u03b5 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "e2791b4f": {
+      "id": "e2791b4f",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem largest_number_5  : -1 < Real.sqrt 13 \u2227 0 < Real.sqrt 13 \u2227 3.5 < Real.sqrt 13 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "7c1c348b": {
+      "id": "7c1c348b",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem boat_speed_in_still_water_3\n    (v  : \u211d) -- speed of boat in still water\n    (s  : \u211d) -- speed of stream\n    (h1  : v + s = 15) -- downstream equation\n    (h2  : v - s = 7) -- upstream equation\n     : v = 11 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "dfb0ca3f": {
+      "id": "dfb0ca3f",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem unique_functional_equation_28 {f  : \u211d \u2192 \u211d} \n  (h1  : \u2200 x, f (x^2) = f x^2 - 2*x*f x)\n  (h2  : \u2200 x, f (-x) = f (x-1))\n  (h3  : \u2200 x y, 1 < x \u2192 x < y \u2192 f x < f y)\n  (x  : \u211d)  : \n  f x = x^2 + x + 1 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "f7c063ab": {
+      "id": "f7c063ab",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_72845 (A O x y z  : \u211d)  : (O = 5 * A \u2227 A + O = 12 \u2227 z = A * x + O * y) \u2192 (O = 10 \u2227 z = 2 * x + 10 * y) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "d44c6e9e": {
+      "id": "d44c6e9e",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem star_properties_16  : \n  -- Statement 1 is true\n  (\u2200 a b  : \u211d, star a b = star b a) \u2227 \n  -- Statement 2 is false (provide counterexample)\n  (\u2203 a b  : \u211d, (star a b)^2 \u2260 star (a^2) (b^2)) \u2227 \n  -- Statement 3 is true\n  (\u2200 a b  : \u211d, star (-a) b = star a (-b)) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "c688712d": {
+      "id": "c688712d",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem tan_sum_problem_8 {x y  : \u211d} (h1  : tan x + tan y = 30) \n    (h2  : cot x + cot y = 40) (hx  : tan x \u2260 0) (hy  : tan y \u2260 0)  : \n    tan (x + y) = 120 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "004cf0f7": {
+      "id": "004cf0f7",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_46111_4  (a b c d  : \u211d)  :\n  4 * a^2 + 3 * b^2 + 3 * c^2 + 2 * d^2 \u2265 Real.sqrt 21 * a * b + 2 * b * c + c * d := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "c1cae6e4": {
+      "id": "c1cae6e4",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem min_value_exp_function_5  :\n  \u2200 x  : \u211d, exp x + 4 * exp (-x) \u2265 4 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "9cc8f30f": {
+      "id": "9cc8f30f",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem quadratic_two_roots_48  : \u2200 (a  : \u211d), a \u2208 ({-1, 0, 1, 2}  : Set \u211d) \u2192\n  (a = -1 \u2194 (\u2203 (x\u2081 x\u2082  : \u211d), x\u2081 \u2260 x\u2082 \u2227 \n    a * x\u2081^2 - 2 * x\u2081 + 1 = 0 \u2227 \n    a * x\u2082^2 - 2 * x\u2082 + 1 = 0)) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "67e62a54": {
+      "id": "67e62a54",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem cosine_triangle_cubic_condition \n    {a b c  : \u211d} \n    {p q r  : \u211d}\n    (h_roots  : \u2200 x  : \u211d, x^3 + a*x^2 + b*x + c = (x - p)*(x - q)*(x - r))\n    (h_pos  : 0 < p \u2227 0 < q \u2227 0 < r)\n    (h_angles  : \u2203 A B C  : \u211d, \n      A + B + C = Real.pi \u2227 \n      p = Real.cos A \u2227 \n      q = Real.cos B \u2227 \n      r = Real.cos C)  :\n    a^2 - 2*b - 2*c = 1 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "4b2177fa": {
+      "id": "4b2177fa",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_2146_2  (S  : Finset \u211d)\n  (h\u2080  : \u2200 (x  : \u211d), x \u2208 S \u2194 |x + 1| = |x - 3| + |x - 4|)  :\n  S.card = 2 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "e63e5510": {
+      "id": "e63e5510",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_29723  (a b c  : \u211d)\n  (h\u2080  : 1 < a \u2227 1 < b \u2227 1 < c)\n  (h\u2081  : (a :\u211d)^(1 / a) * (b :\u211d)^(1 / b) * (c :\u211d)^(1 / c) = (24 :\u211d)^(1 / 24))\n   : a = 3 \u2227 b = 4 \u2227 c = 2 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "65f773c6": {
+      "id": "65f773c6",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem sin_div_plus_three_max_min_sum  :\n  let f  := fun (x  : \u211d) \u21a6 (sin x)/(sin x + 3)\n  (\u2a06 x, f x) + (\u2a05 x, f x) = -1/4 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "de264d7e": {
+      "id": "de264d7e",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem function_ratio_bound {x\u2081 x\u2082 m  : \u211d} \n    (h_pos\u2081  : x\u2081 > 0) (h_pos\u2082  : x\u2082 > 0)  -- positivity conditions\n    (h_root\u2081  : 2 * Real.log x\u2081 + m * x\u2081 = 0)  -- first root condition\n    (h_root\u2082  : 2 * Real.log x\u2082 + m * x\u2082 = 0)  -- second root condition\n    (h_ratio  : x\u2082/x\u2081 \u2265 Real.exp 2)  :  -- ratio condition\n    (2/(x\u2081 + x\u2082) + m)/(2/(x\u2081 - x\u2082)) > 6/5 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "12623713": {
+      "id": "12623713",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem sequence_all_positive\n    (a  : Fin 100 \u2192 \u211d)  -- sequence of 100 real numbers\n    (h1  : a 0 > 0)     -- first number is positive\n    (h2  : a 99 > 0)    -- last number is positive\n    (h3  : \u2200 i  : Fin 99, a i + a (i + 2) \u2264 2 * a (i + 1))  : -- middle condition\n    \u2200 i  : Fin 100, a i > 0 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "3a67eaf3": {
+      "id": "3a67eaf3",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem gina_hourly_rate_2\n    (rose_rate  : \u211a  := 6) -- roses per hour\n    (lily_rate  : \u211a  := 7) -- lilies per hour\n    (rose_order  : \u211a  := 6) -- number of rose cups ordered\n    (lily_order  : \u211a  := 14) -- number of lily cups ordered\n    (total_payment  : \u211a  := 90) -- total payment in dollars\n     : (total_payment / (rose_order / rose_rate + lily_order / lily_rate) = 30) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "b5b344d6": {
+      "id": "b5b344d6",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_70540  (f  : \u211d \u2192 \u211d)\n  (h\u2080  : \u2203 \u03b1, \u2200 x, f x = x^\u03b1)\n  (h\u2081  : f 2 = Real.sqrt 2 / 2)  :\n  f 9 = 1 / 3 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "43ef5d09": {
+      "id": "43ef5d09",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem triangle_ratio_problem_54\n  (a b c A B C  : \u211d)  -- sides and angles of triangle\n  (h_pos_a  : a > 0) (h_pos_b  : b > 0) (h_pos_c  : c > 0)  -- positive sides\n  (h_pos_sinA  : sin A \u2260 0) (h_pos_sinB  : sin B \u2260 0) (h_pos_sinC  : sin C \u2260 0)  -- non-zero sines\n  (h_law_sines  : a/sin A = b/sin B \u2227 b/sin B = c/sin C)  -- law of sines\n  (h_given_eq1  : a*(sin C - sin A)/(sin C + sin B) = c - b)  -- given equation 1\n  (h_given_eq2  : tan B/tan A + tan B/tan C = 4)  -- given equation 2\n   : sin A/sin C = (3 + Real.sqrt 5)/2 \u2228 sin A/sin C = (3 - Real.sqrt 5)/2 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "499096dc": {
+      "id": "499096dc",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_27134_4  (f g  : \u211d \u2192 \u211d)\n  (h\u2080  : \u2200 x, f x = Real.exp (2 * x))\n  (h\u2081  : \u2200 x, g x = Real.log x + 1 / 2)\n  (h\u2082  : 0 < a)\n  (h\u2083  : 0 < b)\n  (h\u2084  : f a = g b)  :\n  b - a \u2265 1 + Real.log 2 / 2 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "fd354fe6": {
+      "id": "fd354fe6",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem sequence_arithmetic_mean (a  : \u2115 \u2192 \u211d) (S  : \u2115 \u2192 \u211d)\n    (h_def  : \u2200 n  : \u2115, n \u2265 1 \u2192 S n = \u2211 i in Finset.range n, a (i + 1))\n    (h_mean  : \u2200 n  : \u2115, n \u2265 1 \u2192 2 * a n = S n + 2)  : \n    \u2200 n  : \u2115, n \u2265 1 \u2192 a n = 2^n := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "2b8013c7": {
+      "id": "2b8013c7",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem parabola_focus_15  : \n  let f (x y  : \u211d)  := x^2 - y -- equation of parabola x\u00b2 = y\n  let focus  : \u211d \u00d7 \u211d  := (0, 1) -- proposed focus point\n  (\u2200 x y  : \u211d, f x y = 0 \u2194 y = x^2) \u2192 -- parabola equation equivalence\n  focus.1 = 0 \u2227 focus.2 = 1 -- conclusion about focus coordinates := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "fd227758": {
+      "id": "fd227758",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem square_from_divisibility {n p  : \u2115} (hn  : n > 1) (hp  : Nat.Prime p)\n    (h1  : n \u2223 (p - 1)) (h2  : p \u2223 (n^3 - 1))  : \u2203 m  : \u2115, 4*p - 3 = m^2 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "ad417d5f": {
+      "id": "ad417d5f",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem piecewise_function_properties_23  : \u2203 (f  : \u211d \u2192 \u211d),\n  (\u2200 x  : \u211d, x \u2265 0 \u2192 f x = 1 - Real.sqrt x) \u2227\n  (\u2200 x  : \u211d, x < 0 \u2192 f x = 2^x) \u2227\n  (f (f 4) = 1/2) \u2227\n  (\u2200 x  : \u211d, f x \u2264 1) \u2227\n  (\u2203 x  : \u211d, f x = 1) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "8d56d611": {
+      "id": "8d56d611",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem tripod_height_3  : \n  let h  : \u211d  := (144  : \u211d)/Real.sqrt (5 * 317)\n  let m  : \u2115  := 144\n  let n  : \u2115  := 5 * 317\n  \u230a(m  : \u211d) + Real.sqrt n\u230b = 183 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "1c223bcf": {
+      "id": "1c223bcf",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_51153_4  (a b  : \u211d)\n  (f  : \u211d \u2192 \u211d)\n  (h\u2080  : \u2200 x, f x = a * Real.sin (3 * x) + b * x^3 + 4)\n  (h\u2081  : \u2200 x, f (-x) = -f x)\n  (h\u2082  : \u2200 x, (f x) = (f (-x)))  :\n  f 2014 + f (-2014) + f 2015 - f (-2015) = 8 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "17fc9b9a": {
+      "id": "17fc9b9a",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_34766_2  (a b c d e  : \u211d)\n  (h\u2080  : a = 50)\n  (h\u2081  : b = 500)\n  (h\u2082  : c = 1500)\n  (h\u2083  : d = 1600)\n  (h\u2084  : e = 2000)\n  (h\u2085  : 0 < 351 / 0.22)  :\n  |(351 / 0.22) - d| < |(351 / 0.22) - a| \u2227\n  |(351 / 0.22) - d| < |(351 / 0.22) - b| \u2227\n  |(351 / 0.22) - d| < |(351 / 0.22) - c| \u2227\n  |(351 / 0.22) - d| < |(351 / 0.22) - e| := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "63e46ad0": {
+      "id": "63e46ad0",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_36456_7  (x  : \u211d)\n  (h\u2080  : x = 2)\n  (h\u2081  : (y  : \u211d) = 3^x)\n  (h\u2082  : (dy_dx  : \u211d) = 3^x * Real.log 3)  :\n  dy_dx = 9 * Real.log 3 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "a1afcc78": {
+      "id": "a1afcc78",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem log_function_range_13  : \n  let M  := {x  : \u211d | 1 < x \u2227 x < 3}\n  let f (x  : \u211d)  := 2^(x+2) - 4^x\n  let R  := {y  : \u211d | \u2203 x \u2208 M, f x = y}\n  R = {y  : \u211d | -32 < y \u2227 y < 4} := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "9b59775e": {
+      "id": "9b59775e",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem circle_reflection_2  : \u2200 (x y x' y'  : \u211d),\n    -- Original circle equation\n    (x - 2)^2 + (y + 1)^2 = 1 \u2192\n    -- Point (x',y') is reflection of (x,y) about line x-y+3=0\n    ((x' + y = x + y') \u2227 (x' - y' = -(x - y))) \u2192\n    -- Reflected point lies on the second circle\n    (x' - 4)^2 + (y' - 5)^2 = 1 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "21ca54f5": {
+      "id": "21ca54f5",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem convex_number_probability_2  : \n  let valid_combinations  := {(1,3,2), (2,3,1), (1,4,2), (2,4,1), \n                            (1,4,3), (3,4,1), (2,4,3), (3,4,2)}\n  let total_combinations  := {(1,2,3), (1,2,4), (1,3,2), (1,3,4),\n                            (1,4,2), (1,4,3), (2,3,1), (2,3,4),\n                            (2,4,1), (2,4,3), (3,1,2), (3,1,4),\n                            (3,2,1), (3,2,4), (3,4,1), (3,4,2),\n                            (4,1,2), (4,1,3), (4,2,1), (4,2,3),\n                            (4,3,1), (4,3,2)}\n  (Finset.card valid_combinations) / (Finset.card total_combinations) = 1/3 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "5dc3a2df": {
+      "id": "5dc3a2df",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_68727_4  (S  : Finset \u211d)\n  (h\u2080  : \u2200 (x  : \u211d), x \u2208 S \u2194 (x^2 - 5 * x + 5)^(x^2 + 4 * x - 60) = 1)  :\n  \u2211 k in S, k = 3 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "b06137e0": {
+      "id": "b06137e0",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_35072_2  (f  : \u211d \u2192 \u211d)\n  (h\u2080  : \u2200 x, f x = x^2 - 4)\n  (h\u2081  : \u2200 x, f (-x) = -f x)  :\n  {x | f (x - 2) > 0} = Set.Ioo 0 2 \u222a Set.Ioi 4 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "5a1b51bb": {
+      "id": "5a1b51bb",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_20579_2  (n  : \u2115)\n  (a  : \u2115 \u2192 \u2115)\n  (b  : \u2115 \u2192 \u2115)\n  (h\u2080  : 0 < n)\n  (h\u2081  : a 1 = 1)\n  (h\u2082  : \u2200 n, a (n + 1) = (\u03bb S => (1 + S) * a n) (\u2211 i in Finset.range n, a i))\n  (h\u2083  : b 1 = a 1)\n  (h\u2084  : b 2 = 2 * a 2)\n  (h\u2085  : b 3 = a 3 + 3)\n  (h\u2086  : \u2200 n, b (n + 3) = b (n + 2) + (b (n + 1) - b n))  :\n  a n = 2^(n - 1) \u2227 b n = 3 * n - 2 \u2227 \u2211 i in Finset.range n, (a i * b i) = (3 * n - 5) * 2^n + 5 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "dedb6509": {
+      "id": "dedb6509",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_78876  (a b c d  : \u211d)\n  (h\u2080  : 0 < a \u2227 0 < b \u2227 0 < c \u2227 0 < d)\n  (h\u2081  : c^2 + d^2 = (a / 2)^2 + (b / 2)^2)\n  (h\u2082  : c^2 + d^2 = 36 + (2 * Real.sqrt 3)^2)\n  (h\u2083  : 2 * c = a)\n  (h\u2084  : 2 * d = b)\n  (h\u2085  : c^2 + d^2 = 60)\n  (h\u2086  : 3 * Real.sqrt 2 = Real.sqrt (36 + (2 * Real.sqrt 3)^2))\n  (h\u2087  : 2 * Real.sqrt 3 = Real.sqrt (60 - 36))\n  (h\u2088  : |b - a| = 4)  :\n  |(b / 2) - (a / 2)| = 2 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "275199f1": {
+      "id": "275199f1",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem solution_45 {g  : \u211d \u2192 \u211d} (x  : \u211d) \n    (h_even  : \u2200 x, g x = g (-x))  -- g is even\n    (h_neg  : \u2200 x, x < 0 \u2192 g x = Real.log (1 - x))  -- definition for negative x\n    (h_mono  : \u2200 x y, x \u2264 y \u2192 g x \u2264 g y)  -- g is increasing for positive x\n    (h_ineq  : g (2 - x^2) > g x)  : -- given inequality\n    -2 < x \u2227 x < 1 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "af25c77d": {
+      "id": "af25c77d",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_17053  (q e  : \u211a)\n  (h\u2080  : q = 15 / 8 * (-34 / 4))\n  (h\u2081  : e = \u230a15 / 8 * \u230a-34 / 4\u230b\u230b)  :\n  Int.ceil q - e = 2 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "67c93598": {
+      "id": "67c93598",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem test_score_problem_4\n    (total_problems  : \u2115  := 25)\n    (right_points  : \u2115  := 4)\n    (wrong_points  : \u2115  := 1)\n    (total_score  : \u2115  := 85)\n    (R W  : \u2115) -- R is number of right answers, W is number of wrong answers\n    (h1  : R + W = total_problems) -- All problems were answered\n    (h2  : right_points * R - wrong_points * W = total_score) -- Score calculation\n     : W = 3 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "abf3d29a": {
+      "id": "abf3d29a",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_49250_2  (S  : Finset (Fin 4 \u2192 Fin 10))\n  (h\u2080  : \u2200 (s  : Fin 4 \u2192 Fin 10), s \u2208 S)  :\n  S.card = 10000 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "3e6f5d18": {
+      "id": "3e6f5d18",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem factorial_ends_in_zeros (n  : \u2115) (h  : n \u2265 100)  :\n  \u2203 k m  : \u2115, (n.factorial = k * (10^10)) \u2227 (n.factorial = m * 10) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "bf7258c9": {
+      "id": "bf7258c9",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem absolute_value_equation_infinite_solutions  :\n  \u2203 (s  : Set \u211d), (Infinite s) \u2227 \u2200 x \u2208 s, |x - 2| + |x - 3| = 1 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "af00d837": {
+      "id": "af00d837",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem sugar_price_reduction \n    (initial_price initial_quantity final_price final_quantity  : \u211d)\n    (h_init_price  : initial_price = 2)\n    (h_final_price  : final_price = 5)\n    (h_pos_quantity  : initial_quantity > 0)\n    (h_equal_expenditure  : initial_price * initial_quantity = final_price * final_quantity)  :\n    (initial_quantity - final_quantity) / initial_quantity * 100 = 60 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "bb96e9f9": {
+      "id": "bb96e9f9",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat Complex\n\n",
+      "theorem": "theorem z_modulus_is_sqrt_5 (z  : \u2102) (h  : z * I = 2 - I)  : abs z = Real.sqrt 5 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "5951956b": {
+      "id": "5951956b",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem odd_function_max_value_3 {f  : \u211d \u2192 \u211d} {a b  : \u211d} (h_def  : \u2200 x, f x = -(x + a)/(b*x + 1))\n    (h_odd  : \u2200 x \u2208 Set.Icc (-1) 1, f (-x) = -(f x))  : \n    (\u2203 x\u2080 \u2208 Set.Icc (-1) 1, \u2200 x \u2208 Set.Icc (-1) 1, f x \u2264 f x\u2080) \u2227 f x\u2080 = 1 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "8bb4bc1c": {
+      "id": "8bb4bc1c",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_42242_4  (a m t  : \u211d)\n  (g  : \u211d \u2192 \u211d)\n  (h\u2080  : 0 < a \u2227 0 < m \u2227 0 < t)\n  (h\u2081  : a \u2260 1)\n  (h\u2082  : \u2200 x, 0 < x \u2192 g x = Real.logb a ((1 - m * x) / (x - 1)))\n  (h\u2083  : \u2200 x y, x < y \u2192 g x < g y)\n  (h\u2084  : \u2200 x \u2208 Set.Ioo t a, 0 < x \u2192 1 < g x)  :\n  a = 1 + Real.sqrt 2 \u2227 t = 1 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "1c3805af": {
+      "id": "1c3805af",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_12176_2  (S  : Finset \u2115)\n  (h\u2080  : \u2200 (n  : \u2115), n \u2208 S \u2194 0 < n \u2227 n \u2223 24 \u2227 4 \u2223 n)  :\n  S.card = 4 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "bd9d68ed": {
+      "id": "bd9d68ed",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem lean_workbook_plus_59183 (m  : \u2115)  : 14.01 * 2 + 16.00 * 3 = 76.02 := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    },
+    "fbb795e1": {
+      "id": "fbb795e1",
+      "header": "import Mathlib\nimport Aesop\nset_option maxHeartbeats 0\nopen BigOperators Real Nat Topology Rat\n\n",
+      "theorem": "theorem arithmetic_seq_equal_sums_5  : \n  let t\u2081 (n  : \u2115)  := n * (5 * n + 5)  -- sum of first n terms of (5, 10, ...)\n  let t\u2082 (n  : \u2115)  := n * (3 * n + 41) -- sum of first n terms of (22, 25, ...)\n  \u2200 n  : \u2115, n > 0 \u2192 (t\u2081 n = t\u2082 n \u2194 n = 18) := by",
+      "tag": "statement",
+      "source": "d_3k",
+      "proofs": []
+    }
+  }
+}

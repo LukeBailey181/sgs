@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+# Ignore type checking rules for jaxtyping annotations
+lint.ignore = ["F722", "F821"]
+
+
+[tool.mypy]
+[[tool.mypy.overrides]]
+module = "wandb.*"
+ignore_missing_imports = true
+follow_imports = "skip"
+follow_imports_for_stubs = false
+
+[[tool.mypy.overrides]]
+module = "sgs.verification.prover.*"
+ignore_missing_imports = true
+follow_imports = "skip"
+follow_imports_for_stubs = false
